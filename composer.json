@@ -38,6 +38,7 @@
   "autoload": {
     "files": [
       "src/Illuminate/Support/helpers.php",
+      "src/Illuminate/Foundation/helpers.php",
       "src/Illuminate/Collections/helpers.php"
     ],
     "psr-4": {
