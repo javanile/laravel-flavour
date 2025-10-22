@@ -3,9 +3,27 @@
   "require-dev": {
     "pestphp/pest": "^4.1"
   },
+  "autoload": {
+    "files": [
+      "src/Illuminate/Support/helpers.php",
+      "src/Illuminate/Collections/helpers.php"
+    ],
+    "psr-4": {
+      "Illuminate\\": "src/Illuminate/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
   "config": {
     "allow-plugins": {
       "pestphp/pest-plugin": true
     }
+  },
+  "require": {
+    "phpoption/phpoption": "^1.9",
+    "vlucas/phpdotenv": "^5.6"
   }
 }
