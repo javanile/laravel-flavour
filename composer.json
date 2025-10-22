@@ -1,5 +1,37 @@
 {
   "name": "javanile/laravel-flavour",
+  "description": "Laravel helper functions extracted as standalone utilities for any PHP project",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["laravel", "helpers", "utilities", "php", "support", "collections"],
+  "homepage": "https://github.com/javanile/laravel-flavour",
+  "support": {
+    "issues": "https://github.com/javanile/laravel-flavour/issues",
+    "source": "https://github.com/javanile/laravel-flavour"
+  },
+  "authors": [
+    {
+      "name": "Francesco Bianco",
+      "email": "bianco@javanile.org",
+      "homepage": "https://javanile.org",
+      "role": "Developer"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Francesco Bianco",
+      "email": "bianco@javanile.org"
+    }
+  ],
+  "funding": [
+    {
+      "type": "custom",
+      "url": "https://javanile.org/funding"
+    }
+  ],
+  "suggest": {
+    "modernization": "Interested in modernizing your legacy app with Docker or introducing modern frameworks? Contact me at bianco@javanile.org for consultation and development services."
+  },
   "require-dev": {
     "pestphp/pest": "^4.1"
   },
