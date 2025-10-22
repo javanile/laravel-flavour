@@ -8,5 +8,5 @@ push:
 build:
 	@bash contrib/build.sh
 
-publish: build
+publish: build push
 	@bash contrib/publish.sh
